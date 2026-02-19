@@ -44,7 +44,7 @@ export default function ContactPage() {
               Get In Touch
             </h1>
             <p className="text-2xl max-w-3xl mx-auto">
-              We'd love to hear from you. Reach out to us for any queries, collaborations, or support.
+              We&apos;d love to hear from you. Reach out to us for any queries, collaborations, or support.
             </p>
           </motion.div>
         </div>
@@ -133,7 +133,7 @@ export default function ContactPage() {
               
               {submitted && (
                 <div className="mb-6 bg-green-50 border border-green-200 text-green-800 px-4 py-3 rounded-lg">
-                  Thank you for your message! We'll get back to you soon.
+                  Thank you for your message! We&apos;ll get back to you soon.
                 </div>
               )}
 

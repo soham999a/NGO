@@ -245,10 +245,10 @@ export default function ScholarshipPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div {...fadeIn}>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Support a Scholar's Journey
+              Support a Scholar&apos;s Journey
             </h2>
             <p className="text-xl mb-10">
-              Each scholarship is not just financial aid—it's a spark of hope lighting the way for a better tomorrow.
+              Each scholarship is not just financial aid—it&apos;s a spark of hope lighting the way for a better tomorrow.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

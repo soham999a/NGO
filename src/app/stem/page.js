@@ -227,7 +227,7 @@ export default function STEMPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div {...fadeIn}>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              STEM is Not Just a Subject—It's a Pathway to Possibility
+              STEM is Not Just a Subject—It&apos;s a Pathway to Possibility
             </h2>
             <p className="text-xl mb-10">
               With our STEM Learning Program, every child can explore, innovate, and envision a brighter future.
