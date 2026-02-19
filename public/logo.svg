@@ -1,0 +1,75 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle with Gradient -->
+  <circle cx="60" cy="60" r="58" fill="url(#bgGradient)" opacity="0.1"/>
+  
+  <!-- Main Circle Border -->
+  <circle cx="60" cy="60" r="56" stroke="url(#borderGradient)" stroke-width="3" fill="none"/>
+  
+  <!-- Children Figures (3 kids holding hands) -->
+  <!-- Left Child -->
+  <circle cx="35" cy="50" r="8" fill="url(#childGradient1)"/>
+  <path d="M35 58 L30 75 M35 58 L40 75 M30 75 L25 85 M40 75 L45 85" stroke="url(#childGradient1)" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Middle Child (slightly taller) -->
+  <circle cx="60" cy="45" r="9" fill="url(#childGradient2)"/>
+  <path d="M60 54 L55 72 M60 54 L65 72 M55 72 L50 82 M65 72 L70 82" stroke="url(#childGradient2)" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Right Child -->
+  <circle cx="85" cy="50" r="8" fill="url(#childGradient3)"/>
+  <path d="M85 58 L80 75 M85 58 L90 75 M80 75 L75 85 M90 75 L95 85" stroke="url(#childGradient3)" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Arms connecting (holding hands) -->
+  <path d="M40 62 L55 58" stroke="#2874A6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M65 58 L80 62" stroke="#FF8C00" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Book/Education Symbol at bottom -->
+  <rect x="45" y="90" width="30" height="20" rx="2" fill="url(#bookGradient)" opacity="0.9"/>
+  <line x1="60" y1="90" x2="60" y2="110" stroke="white" stroke-width="1.5"/>
+  <line x1="50" y1="95" x2="55" y2="95" stroke="white" stroke-width="1" opacity="0.7"/>
+  <line x1="65" y1="95" x2="70" y2="95" stroke="white" stroke-width="1" opacity="0.7"/>
+  <line x1="50" y1="100" x2="55" y2="100" stroke="white" stroke-width="1" opacity="0.7"/>
+  <line x1="65" y1="100" x2="70" y2="100" stroke="white" stroke-width="1" opacity="0.7"/>
+  
+  <!-- Stars/Sparkles (representing dreams and hope) -->
+  <path d="M25 25 L27 30 L32 30 L28 33 L30 38 L25 35 L20 38 L22 33 L18 30 L23 30 Z" fill="#FFD700" opacity="0.8"/>
+  <path d="M95 25 L97 30 L102 30 L98 33 L100 38 L95 35 L90 38 L92 33 L88 30 L93 30 Z" fill="#FFD700" opacity="0.8"/>
+  <circle cx="15" cy="60" r="2" fill="#FFD700" opacity="0.6"/>
+  <circle cx="105" cy="60" r="2" fill="#FFD700" opacity="0.6"/>
+  
+  <!-- Heart symbol (representing care and love) -->
+  <path d="M60 35 C60 35, 55 28, 50 28 C45 28, 42 31, 42 35 C42 40, 60 50, 60 50 C60 50, 78 40, 78 35 C78 31, 75 28, 70 28 C65 28, 60 35, 60 35 Z" fill="#FF6B9D" opacity="0.3"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2874A6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8C00;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2874A6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6B46C1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8C00;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="childGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2874A6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A90C4;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="childGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B46C1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9B7DD4;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="childGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8C00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="bookGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2874A6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8C00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
