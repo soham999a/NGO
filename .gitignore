@@ -38,3 +38,6 @@ next-env.d.ts
 .wix/
 src/pages/
 src/backend/
+
+# large video files
+*.mp4
